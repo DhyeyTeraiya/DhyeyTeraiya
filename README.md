@@ -1,7 +1,13 @@
 ## Hi there 👋
 
 # 💫 About Me:
-🔭 I’m currently working on AI & ML<br>👯 I’m looking to collaborate on  Python, SQL, Power BI <br>🤝 I’m looking for help withData Science & ML<br>🌱 I’m currently learning Data Science & ML<br>💬 Ask me about DATA<br>
+I am a passionate **Data Science & ML Engineer** focused on building intelligent systems and extracting actionable insights from complex datasets. My journey involves deep-diving into AI research while contributing to the global open-source ecosystem.
+
+- 🚀 **Currently driving**: High-impact **AI & Machine Learning** projects and contributing to the core of `scikit-learn` and `pandas`.
+- 🤝 **Open to collaborate**: On technical projects requiring **Python**, **SQL**, and **Power BI** excellence.
+- 💡 **Interested in**: Scaling **MLOps** pipelines and advanced **Statistical Modeling**.
+- 🌱 **Learning & Growing**: Expanding my expertise in **Generative AI** and **Deep Learning**.
+- 💬 **Let's talk about**: **Data Strategy**, predictive analytics, or the latest in tech!
 
 
 ## 🌐 Socials:
