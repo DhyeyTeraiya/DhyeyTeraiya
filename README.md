@@ -31,3 +31,6 @@ Currently contributing to major data science libraries:
 [![](https://visitcount.itsvg.in/api?id=DhyeyTeraiya&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+
+<!-- This commit unlocks the Pair Extraordinaire achievement! -->
