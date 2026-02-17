@@ -12,9 +12,9 @@
 
 # 🚀 Open Source Journey
 Currently contributing to major data science libraries:
-- 🛠️ **Hugging Face Datasets**: Fixed `TypeError` in `load_dataset_builder` related to keyword conflicts (#4910).
-- 🐼 **Pandas**: Added regression tests for `groupby.var()` handling of Arrow-backed dtypes (#54627).
-- 🧪 **Scikit-learn**: (In Progress...)
+- 🛠️ **Hugging Face Datasets**: Fixed `TypeError` in `load_dataset_builder` related to keyword conflicts (#8008).
+- 🐼 **Pandas**: Added regression tests for `groupby.var()` handling of Arrow-backed dtypes (#64169).
+- 🧪 **Scikit-learn**: Fixed multiple documentation typos in `sklearn/_loss/loss.py` (#33297).
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=DhyeyTeraiya&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
