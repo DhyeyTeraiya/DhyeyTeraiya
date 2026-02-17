@@ -16,6 +16,9 @@ Currently contributing to major data science libraries:
 - 🐼 **Pandas**: Added regression tests for `groupby.var()` handling of Arrow-backed dtypes (#64169).
 - 🧪 **Scikit-learn**: Fixed multiple documentation typos in `sklearn/_loss/loss.py` (#33297).
 
+# 📊 Activity Milestones:
+![Milestone Stats](./milestone_stats.svg)
+
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=DhyeyTeraiya&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=DhyeyTeraiya&theme=dark&hide_border=false)<br/>

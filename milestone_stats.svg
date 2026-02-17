@@ -1,0 +1,29 @@
+<svg width="600" height="200" viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="200" rx="15" fill="#0D1117"/>
+  <rect x="2" y="2" width="596" height="196" rx="13" stroke="url(#paint0_linear)" stroke-width="4" stroke-opacity="0.8"/>
+  
+  <!-- Streak Section -->
+  <g transform="translate(60, 60)">
+    <path d="M15 0C15 0 15 5 10 10C5 15 0 20 0 30C0 40 10 50 20 50C30 50 40 40 40 30C40 20 30 5 15 0Z" fill="#FF4500">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" />
+    </path>
+    <text x="60" y="25" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="bold">368+ Days</text>
+    <text x="60" y="50" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Current Streak</text>
+  </g>
+
+  <!-- Contributions Section -->
+  <g transform="translate(320, 60)">
+    <rect x="0" y="10" width="10" height="30" rx="2" fill="#216E39" />
+    <rect x="15" y="0" width="10" height="40" rx="2" fill="#30A14E" />
+    <rect x="30" y="5" width="10" height="35" rx="2" fill="#40C463" />
+    <text x="60" y="25" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="bold">2466+</text>
+    <text x="60" y="50" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Total Contributions</text>
+  </g>
+
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="600" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3FB1FF"/>
+      <stop offset="1" stop-color="#AB7DFE"/>
+    </linearGradient>
+  </defs>
+</svg>
