@@ -1,27 +1,30 @@
-<svg width="600" height="200" viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="200" rx="15" fill="#0D1117"/>
-  <rect x="2" y="2" width="596" height="196" rx="13" stroke="url(#paint0_linear)" stroke-width="4" stroke-opacity="0.8"/>
+<svg width="600" height="280" viewBox="0 0 600 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="280" rx="15" fill="#0D1117"/>
+  <rect x="2" y="2" width="596" height="276" rx="13" stroke="url(#paint0_linear)" stroke-width="4" stroke-opacity="0.8"/>
   
-  <!-- Streak Section -->
-  <g transform="translate(60, 60)">
-    <path d="M15 0C15 0 15 5 10 10C5 15 0 20 0 30C0 40 10 50 20 50C30 50 40 40 40 30C40 20 30 5 15 0Z" fill="#FF4500">
-      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" />
-    </path>
-    <text x="60" y="25" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="bold">367+ Days</text>
-    <text x="60" y="50" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Current Streak</text>
+  <!-- Projects Milestone -->
+  <g transform="translate(60, 40)">
+    <path d="M5 25V5C5 3.89543 5.89543 3 7 3H21C22.1046 3 23 3.89543 23 5V25C23 26.1046 22.1046 27 21 27H7C5.89543 27 5 26.1046 5 25Z" stroke="#3FB1FF" stroke-width="2"/>
+    <text x="50" y="22" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="bold">37+ Repositories</text>
+    <text x="50" y="45" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">Open Source & Project Impact</text>
   </g>
 
-  <!-- Contributions Section -->
-  <g transform="translate(320, 60)">
-    <rect x="0" y="10" width="10" height="30" rx="2" fill="#216E39" />
-    <rect x="15" y="0" width="10" height="40" rx="2" fill="#30A14E" />
-    <rect x="30" y="5" width="10" height="35" rx="2" fill="#40C463" />
-    <text x="60" y="25" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="bold">2494+</text>
-    <text x="60" y="50" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Total Contributions</text>
+  <!-- Contributions Milestone -->
+  <g transform="translate(60, 110)">
+    <path d="M5 10L12 3L19 10M12 3V21" stroke="#AB7DFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="50" y="22" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="bold">3,600+ Contributions</text>
+    <text x="50" y="45" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">Commits, PRs, and Insights since 2024</text>
+  </g>
+
+  <!-- Open Source Milestone -->
+  <g transform="translate(60, 180)">
+    <circle cx="15" cy="15" r="10" stroke="#FF4500" stroke-width="2"/>
+    <text x="50" y="22" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="bold">Data Science Contributor</text>
+    <text x="50" y="45" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">Hugging Face, Pandas, Scikit-learn Core</text>
   </g>
 
   <defs>
-    <linearGradient id="paint0_linear" x1="0" y1="0" x2="600" y2="200" gradientUnits="userSpaceOnUse">
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="600" y2="280" gradientUnits="userSpaceOnUse">
       <stop stop-color="#3FB1FF"/>
       <stop offset="1" stop-color="#AB7DFE"/>
     </linearGradient>
