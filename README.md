@@ -27,7 +27,7 @@ Currently contributing to major data science libraries:
 # 📊 Activity Milestones:
 ![Milestone Stats](./milestone_stats.svg)
 <p align="left">
-  <img src="https://img.shields.io/badge/Streak-367%2B%20Days-orange?style=for-the-badge&logo=github-sponsors&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streak-0%2B%20Days-orange?style=for-the-badge&logo=github-sponsors&logoColor=white" />
   <img src="https://img.shields.io/badge/Contributions-2492%2B-blueviolet?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
