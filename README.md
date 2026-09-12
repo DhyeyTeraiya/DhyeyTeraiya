@@ -137,7 +137,8 @@ Actively giving back to core tools in the modern data ecosystem:
 
 - 🏅 **IBM SkillsBuild**: *Data Fundamentals*
 - 🤖 **AI for All**: *From Basics to GenAI Practice*
-- 🧠 **Anthropic / Claude**: *Claude 101* & *Claude Code in Action*
+- 🧠 **Anthropic**: *Claude 101*
+- ⚡ **Anthropic**: *Claude Code in Action*
 
 ---
 
