@@ -21,10 +21,11 @@
 
 Data Scientist and BCA graduate with hands-on expertise in **Python, SQL, Power BI, Excel, and Machine Learning**. Experienced in end-to-end data pipelines: data cleaning, exploratory data analysis (EDA), anomaly detection, predictive modeling, and communicating actionable business insights through interactive dashboards.
 
-- 💼 **Current Role**: **Data Scientist** at **Deets Digital** (1.5+ Months)
-- 🎯 **Open to Roles**: Data Scientist, Data Analyst, Business Analyst, BI Analyst, Machine Learning Engineer
-- 🌟 **Open Source**: Actively contributing to major data science frameworks (`pandas`, `scikit-learn`, `Hugging Face datasets`)
-- 🎓 **Education**: Bachelor of Computer Applications (BCA) in Information Technology — SDJ International College
+- 💼 **Current Role**: **Data Scientist** at **Deets Digital** (1.5+ Months) · Prev. **Fly The Nest**
+- 🎯 **Target Roles**: Data Scientist, Data Analyst, Business Analyst, BI Analyst, Machine Learning Engineer
+- 🌟 **Open Source**: Actively contributing to core data science ecosystems (`pandas`, `scikit-learn`, `huggingface/datasets`)
+- 🎓 **Education**: **BCA in Information Technology** (Sep 2022 – Apr 2025) — **SDJ International College**, Surat, India
+  - *Coursework*: Database Management Systems, Machine Learning, Statistics & Probability, Software Engineering, Data Structures & Algorithms
 
 ---
 
@@ -32,9 +33,9 @@ Data Scientist and BCA graduate with hands-on expertise in **Python, SQL, Power 
 
 | Domain | Technologies & Tools |
 | :--- | :--- |
-| **Programming & Querying** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| **Data Science & ML** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square) |
-| **BI & Analytics** | ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![DAX](https://img.shields.io/badge/DAX-235A88?style=flat-square) ![Power Query](https://img.shields.io/badge/Power_Query-0E8B99?style=flat-square) ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) |
+| **Programming & Databases** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| **Data Science & ML** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square) |
+| **BI & Analytics** | ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![DAX](https://img.shields.io/badge/DAX-235A88?style=flat-square) ![Power Query](https://img.shields.io/badge/Power_Query-0E8B99?style=flat-square) ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white) ![Pivot Tables](https://img.shields.io/badge/Pivot_Tables-217346?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) |
 | **Web & Databases** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=flat-square) |
 | **Core Workflow** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) |
 
@@ -82,8 +83,6 @@ Data Scientist and BCA graduate with hands-on expertise in **Python, SQL, Power 
         <li><b>Stack:</b> <code>Power BI</code>, <code>DAX</code>, <code>Power Query</code>, <code>Data Modeling</code></li>
       </ul>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h4 align="center">🏨 Hotel Booking Cancellation Analysis</h4>
       <p align="center">
@@ -96,6 +95,8 @@ Data Scientist and BCA graduate with hands-on expertise in **Python, SQL, Power 
         <li><b>Stack:</b> <code>Microsoft Excel</code>, <code>Pivot Tables</code>, <code>Statistical Analysis</code></li>
       </ul>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h4 align="center">💳 Bank Loan Approval Prediction</h4>
       <p align="center">
@@ -108,14 +109,25 @@ Data Scientist and BCA graduate with hands-on expertise in **Python, SQL, Power 
         <li><b>Stack:</b> <code>Python</code>, <code>Scikit-learn</code>, <code>EDA</code>, <code>Machine Learning</code></li>
       </ul>
     </td>
+    <td width="50%" valign="top">
+      <h4 align="center">🎖️ Military Fleet Management (SQL)</h4>
+      <p align="center">
+        <a href="https://github.com/DhyeyTeraiya/military-fleet-management-sql"><b>View Repository »</b></a>
+      </p>
+      <ul>
+        <li>Relational database architecture for tracking military assets, maintenance schedules, and readiness status.</li>
+        <li>Authored complex SQL queries utilizing CTEs, window functions, and multi-table joins.</li>
+        <li>Constructed operational KPI reports measuring fleet downtime and maintenance cost drivers.</li>
+        <li><b>Stack:</b> <code>SQL</code>, <code>MySQL</code>, <code>Database Design</code>, <code>Analytics</code></li>
+      </ul>
+    </td>
   </tr>
 </table>
 
 <details>
-<summary><b>🔍 View More Projects (SQL, NLP, Machine Learning)</b></summary>
+<summary><b>🔍 View More Projects (NLP, Machine Learning, API Systems)</b></summary>
 <br/>
 
-- 🎖️ **[Military Fleet Management & Hospital Billing (SQL)](https://github.com/DhyeyTeraiya/military-fleet-management-sql)**: Relational schema design, complex joins, CTEs, and aggregated reporting for fleet tracking and patient billing.
 - 🍷 **[Wine Quality Prediction & Analysis](https://github.com/DhyeyTeraiya/wine-quality-analysis-ml)**: Chemical property correlation analysis, outlier detection, and classification models.
 - 📱 **[Instagram Analytics & Insights](https://github.com/DhyeyTeraiya/instagram-analytics-project)**: Follower engagement analytics, impression modeling, and content timing optimization.
 - 🕉️ **[Bhagwat Gita AI Guidance](https://github.com/DhyeyTeraiya/bhagwat-gita-ai)**: Conversational philosophical system powered by Google AI / Gemini API.
@@ -135,10 +147,11 @@ Actively giving back to core tools in the modern data ecosystem:
 
 ### 📜 Certifications & Honors
 
-- 🔴 **Oracle**: *Oracle Certified Associate*
-- 🏅 **IBM SkillsBuild**: *Data Fundamentals*
-- 🤖 **AI for All**: *From Basics to GenAI Practice*
-- 🧠 **Anthropic / Claude**: *Claude 101* & *Claude Code in Action*
+- 🔴 **Oracle University**: *Oracle Certified Foundations Associate: Agentic AI* (Issued Jun 25, 2026)
+- 🏅 **IBM SkillsBuild**: *Data Fundamentals* (Issued Jun 14, 2026)
+- 🤖 **NVIDIA Deep Learning Institute**: *AI for All: From Basics to GenAI Practice*
+- 🧠 **Anthropic**: *Certificate of Completion: Claude 101*
+- ⚡ **Anthropic**: *Claude Code in Action*
 
 ---
 
