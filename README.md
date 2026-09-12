@@ -21,7 +21,7 @@
 
 Data Scientist and BCA graduate with hands-on expertise in **Python, SQL, Power BI, Excel, and Machine Learning**. Experienced in end-to-end data pipelines: data cleaning, exploratory data analysis (EDA), anomaly detection, predictive modeling, and communicating actionable business insights through interactive dashboards.
 
-- 💼 **Current Role**: **Data Scientist** at [Fly The Nest](https://github.com/DhyeyTeraiya) (Sep 2025 – Present)
+- 💼 **Current Role**: **Data Scientist** at **Deets Digital** (1.5+ Months)
 - 🎯 **Open to Roles**: Data Scientist, Data Analyst, Business Analyst, BI Analyst, Machine Learning Engineer
 - 🌟 **Open Source**: Actively contributing to major data science frameworks (`pandas`, `scikit-learn`, `Hugging Face datasets`)
 - 🎓 **Education**: Bachelor of Computer Applications (BCA) in Information Technology — SDJ International College
@@ -50,9 +50,9 @@ Data Scientist and BCA graduate with hands-on expertise in **Python, SQL, Power 
         <a href="https://github.com/DhyeyTeraiya/f1-race-intelligence-analytics"><b>View Repository »</b></a>
       </p>
       <ul>
-        <li>End-to-end motorsport data science platform analyzing <b>1,600+ Grand Prix records</b> across 4 seasons & 20 circuits.</li>
-        <li>Built ensemble ML models predicting podium finishes with <b>94.75% accuracy</b> & <b>0.982 ROC-AUC</b>.</li>
-        <li>Engineered tire degradation curves ($R^2 = 0.831$) & interactive tactical <b>pit stop undercut simulator</b>.</li>
+        <li>End-to-end motorsport data science platform analyzing <b>2,565+ Grand Prix records</b> across 6 championship seasons (2021–2026) & 25+ global circuits.</li>
+        <li>Built ensemble ML models predicting podium finishes with <b>91.12% accuracy</b> & <b>0.9483 ROC-AUC</b>.</li>
+        <li>Engineered tire degradation curves ($R^2 = 0.763$) & interactive tactical <b>pit stop undercut simulator</b>.</li>
         <li><b>Stack:</b> <code>Python</code>, <code>Scikit-learn</code>, <code>Streamlit</code>, <code>Pandas</code>, <code>Plotly</code></li>
       </ul>
     </td>
@@ -135,10 +135,10 @@ Actively giving back to core tools in the modern data ecosystem:
 
 ### 📜 Certifications & Honors
 
+- 🔴 **Oracle**: *Oracle Certified Associate*
 - 🏅 **IBM SkillsBuild**: *Data Fundamentals*
 - 🤖 **AI for All**: *From Basics to GenAI Practice*
-- 🧠 **Anthropic**: *Claude 101*
-- ⚡ **Anthropic**: *Claude Code in Action*
+- 🧠 **Anthropic / Claude**: *Claude 101* & *Claude Code in Action*
 
 ---
 
