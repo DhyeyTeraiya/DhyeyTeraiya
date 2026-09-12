@@ -45,6 +45,18 @@ Data Scientist and BCA graduate with hands-on expertise in **Python, SQL, Power 
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h4 align="center">🏎️ Formula 1 Race Intelligence & Strategy AI</h4>
+      <p align="center">
+        <a href="https://github.com/DhyeyTeraiya/f1-race-intelligence-analytics"><b>View Repository »</b></a>
+      </p>
+      <ul>
+        <li>End-to-end motorsport data science platform analyzing <b>1,600+ Grand Prix records</b> across 4 seasons & 20 circuits.</li>
+        <li>Built ensemble ML models predicting podium finishes with <b>94.75% accuracy</b> & <b>0.982 ROC-AUC</b>.</li>
+        <li>Engineered tire degradation curves ($R^2 = 0.831$) & interactive tactical <b>pit stop undercut simulator</b>.</li>
+        <li><b>Stack:</b> <code>Python</code>, <code>Scikit-learn</code>, <code>Streamlit</code>, <code>Pandas</code>, <code>Plotly</code></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
       <h4 align="center">🏥 Healthcare Analytics Platform</h4>
       <p align="center">
         <a href="https://github.com/DhyeyTeraiya/health-care-python-analyst"><b>View Repository »</b></a>
@@ -56,6 +68,8 @@ Data Scientist and BCA graduate with hands-on expertise in **Python, SQL, Power 
         <li><b>Stack:</b> <code>Python</code>, <code>Pandas</code>, <code>Scikit-learn</code>, <code>Streamlit</code>, <code>Seaborn</code></li>
       </ul>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h4 align="center">🎬 Netflix Content Analytics Dashboard</h4>
       <p align="center">
