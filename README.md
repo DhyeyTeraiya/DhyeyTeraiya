@@ -3,12 +3,12 @@
 # Hi, I'm Dhyey Teraiya 👋
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Data+Scientist+%26+ML+Engineer;Predictive+Modeling+%26+Analytics;Power+BI+%26+Streamlit+Dashboards;Open+Source+Contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Data+Scientist+Intern+%40+Deets+Digital;Python+%7C+SQL+%7C+Power+BI+%7C+Machine+Learning;Demand+Forecasting+%26+Time-Series+Analysis;Open+to+Data+%2F+BI+%2F+ML+roles" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhyey-teraiya)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhyey-teraiya/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhyeyteraiya@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Ahmedabad%2C%20India-blue?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=Ahmedabad,+Gujarat,+India)
 
@@ -18,15 +18,42 @@
 
 ### About
 
-Data Scientist working end to end: cleaning and wrangling raw data, building and
-validating predictive models, then shipping the result as a dashboard someone
-actually opens on a Monday morning.
+Data Scientist Intern and BCA graduate with hands-on experience in **Python, SQL,
+Power BI, Excel, machine learning and data visualisation**. I clean and validate
+data, run exploratory analysis, detect trends and anomalies, build predictive
+models — and explain the results to people who don't want to read a notebook.
 
-- 💼 **Data Scientist** at **Deets Digital** · previously **Fly The Nest**
-- 🎯 Open to **Data Scientist / Data Analyst / BI Analyst / ML Engineer** roles
-- 🧪 Currently building analytics projects in Python and Power BI
+- 💼 **Data Scientist Intern** at **Deets Digital** · previously **Data Science Associate** at **Fly The Nest**
+- 🔭 Currently training and fine-tuning AI models for client projects, and building a **demand forecasting model** for a client inventory project
+- 🎯 Open to **Data Analyst · Data Scientist · Business Analyst · BI Analyst · entry-level ML** roles
 - 🎓 **BCA, Information Technology** — SDJ International College, Surat (2022–2025)
 - 🌍 Ahmedabad, Gujarat, India
+
+---
+
+### Experience
+
+**Data Scientist Intern** · Deets Digital — Ahmedabad, India
+`Aug 2026 – Present`
+
+- Train and fine-tune AI models for client projects, improving accuracy through data preparation and evaluation
+- Building a demand forecasting model for a client inventory project to improve stock planning
+- Analyse inventory and cost data to identify cost-reduction opportunities and present clear recommendations
+
+**Data Science Associate** · Fly The Nest — Ahmedabad, India
+`Sep 2025 – Jul 2026`
+
+- Built classification and regression models with Python and scikit-learn after intensive corporate training
+- Performed EDA on real-world datasets to surface trends, patterns and anomalies
+- Developed Power BI dashboards and Python visualisations for non-technical stakeholders
+- Documented workflows and model results to support reproducibility
+
+**Web Development Intern** · AlphaVed Pvt. Ltd. — Surat, India
+`Apr 2025 – Jun 2025`
+
+- Built responsive web applications with React.js, JavaScript and HTML
+- Integrated REST APIs and supported debugging across front-end and back-end workflows
+- Delivered user-facing features in an iterative team workflow
 
 ---
 
@@ -34,24 +61,26 @@ actually opens on a Monday morning.
 
 | Area | Tools |
 | :--- | :--- |
-| **Programming & data** | Python · SQL · pandas · NumPy · scikit-learn · matplotlib · seaborn |
-| **Machine learning** | Classification, regression, clustering, anomaly detection, model evaluation |
-| **BI & dashboards** | Power BI (DAX, Power Query) · Excel (pivot tables) · Streamlit · Plotly |
-| **Web & storage** | React · Node.js · FastAPI · MongoDB · MySQL · REST APIs |
-| **Workflow** | Git · GitHub · VS Code · Jupyter |
+| **Analytics** | Data analysis · data cleaning · EDA · statistical analysis · business insights |
+| **Programming & databases** | Python · SQL · MySQL · JavaScript · HTML/CSS |
+| **Data & BI tools** | Power BI · DAX · Power Query · Excel · Pivot Tables · Jupyter |
+| **Python libraries** | pandas · NumPy · scikit-learn · Matplotlib · Seaborn |
+| **Machine learning** | Classification · regression · clustering · anomaly detection · feature engineering · model evaluation |
+| **Forecasting & data engineering** | Moving averages · ARIMA · time-series analysis · ETL pipelines |
+| **Other** | Git · GitHub · VS Code · React.js · Node.js · MongoDB · REST APIs |
 
 ---
 
 ### Selected projects
 
-| Project | What it does | Stack |
+| Project | What it does | Result |
 | :--- | :--- | :--- |
-| [🏎️ F1 Race Intelligence & Strategy](https://github.com/DhyeyTeraiya/f1-race-intelligence-analytics) | Podium prediction held out on the unseen 2024 season — **94.75% accuracy, 0.982 ROC-AUC**; tire-degradation modelling and a pit-stop undercut simulator | Python · scikit-learn · Streamlit · Plotly |
-| [🏥 Healthcare Analytics Platform](https://github.com/DhyeyTeraiya/health-care-python-analyst) | 55,500+ patient records: billing-anomaly detection (IQR/Z-score), K-Means risk segmentation and a Streamlit app | Python · pandas · scikit-learn · Streamlit |
-| [🧑‍💻 Job Application Portal](https://github.com/DhyeyTeraiya/JobPortal) | Full-stack hiring platform with authentication, resume upload and application tracking | FastAPI · React · MongoDB |
-| [💳 Bank Loan Approval Prediction](https://github.com/DhyeyTeraiya/bank-loan-approval-classification-project) | Credit-risk classification with feature engineering and model comparison | Python · scikit-learn |
-| [🎬 Netflix Content Analytics](https://github.com/DhyeyTeraiya/netflix-powerbi-dashboard) | 8,807-title Power BI dashboard with custom DAX measures and drill-downs | Power BI · DAX |
-| [🏨 Hotel Booking Cancellations](https://github.com/DhyeyTeraiya/hotel-booking-cancellation-excel) | 119,390 bookings analysed for cancellation drivers and revenue leakage | Excel · Pivot Tables |
+| [🏎️ F1 Race Intelligence & Strategy](https://github.com/DhyeyTeraiya/f1-race-intelligence-analytics) | Podium prediction, tire-degradation modelling, pit-stop undercut simulator, Streamlit dashboard | **94.75% accuracy / 0.982 ROC-AUC** held out on the unseen 2024 season |
+| [🏥 Healthcare Analytics Platform](https://github.com/DhyeyTeraiya/health-care-python-analyst) | Anomaly detection on hospital billing with IQR + Z-score, statistical tests and K-Means risk segmentation | 55,500+ records → **847 suspicious bills (1.5%)** flagged, **4 patient segments** |
+| [🎬 Netflix Content Analytics](https://github.com/DhyeyTeraiya/netflix-powerbi-dashboard) | 5-page Power BI dashboard with custom DAX, slicers and drill-through to single titles | 8,807 titles modelled · **≈70% movies / 30% TV**, US top producer, additions peaked **2019** |
+| [🏨 Hotel Booking Cancellations](https://github.com/DhyeyTeraiya/hotel-booking-cancellation-excel) | Excel dashboard on cancellation drivers by lead time, segment, deposit type and month | 119,390 bookings · **37% cancelled** (City **42%** vs Resort **28%**), August peak |
+| [💳 Bank Loan Approval Prediction](https://github.com/DhyeyTeraiya/bank-loan-approval-classification-project) | Credit-risk classification with feature engineering and model comparison | Precision/recall/ROC-AUC comparison across classifiers |
+| [🧑‍💻 Job Application Portal](https://github.com/DhyeyTeraiya/JobPortal) | Full-stack hiring platform with auth, resume upload and application tracking | FastAPI · React · MongoDB |
 | [⚔️ Army Fleet Management](https://github.com/DhyeyTeraiya/military-fleet-management-sql) | Relational schema plus CTE / window-function analytics for fleet readiness | MySQL · SQL |
 
 ---
@@ -64,16 +93,22 @@ actually opens on a Monday morning.
 | **huggingface/datasets** | [#8008](https://github.com/huggingface/datasets/pull/8008) | `fix:` prevent duplicate keywords in `load_dataset_builder` | 🟡 Open |
 | **pandas** | [#64169](https://github.com/pandas-dev/pandas/pull/64169) | `TST:` regression test for `GH#54627` | ⚪ Closed |
 
-Notes and the day-by-day log: [open-source-journey](https://github.com/DhyeyTeraiya/open-source-journey)
+Notes and the learning log: [open-source-journey](https://github.com/DhyeyTeraiya/open-source-journey)
 
 ---
 
 ### Certifications
 
-- 🔴 **Oracle University** — Oracle Certified Foundations Associate: Agentic AI
-- 🏅 **IBM SkillsBuild** — Data Fundamentals
+- 🔴 **Oracle University** — Oracle Certified Foundations Associate: Agentic AI · *Jun 2026*
+- 🏅 **IBM SkillsBuild** — Data Fundamentals · *Jun 2026*
 - 🤖 **NVIDIA Deep Learning Institute** — AI for All: From Basics to GenAI Practice
 - 🧠 **Anthropic** — Claude 101 · Claude Code in Action
+
+---
+
+### Languages
+
+English (professional working proficiency) · Hindi (fluent) · Gujarati (native)
 
 ---
 
@@ -94,7 +129,7 @@ Notes and the day-by-day log: [open-source-journey](https://github.com/DhyeyTera
 
 ### Let's build something
 
-[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhyey-teraiya)
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhyey-teraiya/)
 [![Email](https://img.shields.io/badge/Say%20hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhyeyteraiya@gmail.com)
 
 </div>
