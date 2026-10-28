@@ -5,22 +5,22 @@
   <!-- Projects Milestone -->
   <g transform="translate(60, 40)">
     <path d="M5 25V5C5 3.89543 5.89543 3 7 3H21C22.1046 3 23 3.89543 23 5V25C23 26.1046 22.1046 27 21 27H7C5.89543 27 5 26.1046 5 25Z" stroke="#3FB1FF" stroke-width="2"/>
-    <text x="50" y="22" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="bold">37+ Repositories</text>
+    <text x="50" y="22" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="bold">26 Public Repositories</text>
     <text x="50" y="45" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">Open Source & Project Impact</text>
   </g>
 
   <!-- Contributions Milestone -->
   <g transform="translate(60, 110)">
     <path d="M5 10L12 3L19 10M12 3V21" stroke="#AB7DFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="50" y="22" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="bold">3,600+ Contributions</text>
-    <text x="50" y="45" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">Commits, PRs, and Insights since 2024</text>
+    <text x="50" y="22" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="bold">134 Contributions</text>
+    <text x="50" y="45" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">Commits, PRs and reviews over the last 12 months</text>
   </g>
 
   <!-- Open Source Milestone -->
   <g transform="translate(60, 180)">
     <circle cx="15" cy="15" r="10" stroke="#FF4500" stroke-width="2"/>
     <text x="50" y="22" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="bold">Data Science Contributor</text>
-    <text x="50" y="45" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">Hugging Face, Pandas, Scikit-learn Core</text>
+    <text x="50" y="45" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">Pull requests to scikit-learn, Hugging Face and pandas</text>
   </g>
 
   <defs>

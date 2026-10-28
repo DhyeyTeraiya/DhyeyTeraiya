@@ -1,97 +1,146 @@
+"""Regenerate the figures rendered in ``milestone_stats.svg``.
+
+``milestone_stats.svg`` is a static asset: the artwork is hand-drawn, but the
+numbers inside it must come from an API rather than from memory. This script
+rewrites exactly two values, in place:
+
+    * public repository count          — REST ``/users/{login}``
+    * contributions in the last year   — GraphQL ``contributionsCollection``,
+      falling back to the public contribution calendar page when the token in
+      use cannot read that field (the Actions ``GITHUB_TOKEN`` cannot query
+      another user, so the fallback is the normal path in CI)
+
+Design rules:
+    * every substitution must match exactly once, so a silent no-op (which is
+      how the previous version of this script failed — its regexes matched
+      nothing for months) raises instead of passing quietly;
+    * the file is only rewritten when a value actually changed, so the daily
+      workflow does not create empty commits;
+    * failures exit non-zero, so the Actions run goes red instead of printing
+      an error into a green build.
+
+Usage::
+
+    GITHUB_TOKEN=... python scripts/update_stats.py
+"""
+
+from __future__ import annotations
+
 import os
-import requests
 import re
-from datetime import datetime
+import sys
+from pathlib import Path
 
-# GitHub API configuration
-GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-USERNAME = 'DhyeyTeraiya'
+import requests
 
-def get_stats():
-    query = """
-    query($login:String!) {
-      user(login: $login) {
-        contributionsCollection {
-          contributionCalendar {
-            totalContributions
-            weeks {
-              contributionDays {
-                date
-                contributionCount
-              }
-            }
-          }
-        }
+USERNAME = "DhyeyTeraiya"
+REPO_ROOT = Path(__file__).resolve().parents[1]
+SVG_PATH = REPO_ROOT / "milestone_stats.svg"
+USER_AGENT = "dhyey-profile-stats/2.0"
+
+CONTRIBUTION_QUERY = """
+query($login: String!) {
+  user(login: $login) {
+    contributionsCollection {
+      contributionCalendar {
+        totalContributions
       }
     }
-    """
-    headers = {"Authorization": f"Bearer {GITHUB_TOKEN}"}
-    response = requests.post('https://api.github.com/graphql', json={'query': query, 'variables': {'login': USERNAME}}, headers=headers)
-    
-    if response.status_code != 200:
-        raise Exception(f"Query failed: {response.status_code}")
-        
-    data = response.json()['data']['user']['contributionsCollection']['contributionCalendar']
-    total_contributions = data['totalContributions']
-    
-    # Calculate streak
-    days = []
-    for week in data['weeks']:
-        days.extend(week['contributionDays'])
-    
-    days.reverse() # Start from most recent
-    
-    streak = 0
-    today = datetime.now().strftime('%Y-%m-%d')
-    yesterday = datetime.now().replace(day=datetime.now().day-1).strftime('%Y-%m-%d')
-    
-    # Simple streak calculation: count consecutive days with > 0 contributions starting from today or yesterday
-    finding_streak = False
-    for day in days:
-        if day['contributionCount'] > 0:
-            streak += 1
-            finding_streak = True
-        elif finding_streak:
-            break
-        elif day['date'] < yesterday:
-            # If we haven't found a contribution by yesterday, streak is 0
-            break
-            
-    return total_contributions, streak
+  }
+}
+"""
 
-def update_files(total, streak):
-    # Update README.md
-    with open('README.md', 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Update shielding badges
-    content = re.sub(r'Streak-\d+%2B%20Days', f'Streak-{streak}%2B%20Days', content)
-    content = re.sub(r'Contributions-\d+%2B', f'Contributions-{total}%2B', content)
-    
-    # Update SVG (using simple string replacement for simplicity)
-    with open('milestone_stats.svg', 'r', encoding='utf-8') as f:
-        svg_content = f.read()
-    
-    # This assumes the SVG has specific placeholders or we just replace the known values
-    # Based on the SVG I created:
-    svg_content = re.sub(r'\d+\+ Days', f'{streak}+ Days', svg_content)
-    svg_content = re.sub(r'>\d+\+<', f'>{total}+<', svg_content)
-    
-    with open('README.md', 'w', encoding='utf-8') as f:
-        f.write(content)
-        
-    with open('milestone_stats.svg', 'w', encoding='utf-8') as f:
-        f.write(svg_content)
+
+def _token() -> str:
+    token = os.getenv("GITHUB_TOKEN")
+    if not token:
+        sys.exit("GITHUB_TOKEN is not set")
+    return token
+
+
+def public_repository_count(token: str) -> int:
+    response = requests.get(
+        f"https://api.github.com/users/{USERNAME}",
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+            "User-Agent": USER_AGENT,
+        },
+        timeout=30,
+    )
+    response.raise_for_status()
+    return int(response.json()["public_repos"])
+
+
+def contributions_last_year(token: str) -> int:
+    """GraphQL first; fall back to the public calendar when the token is denied."""
+    try:
+        response = requests.post(
+            "https://api.github.com/graphql",
+            json={"query": CONTRIBUTION_QUERY, "variables": {"login": USERNAME}},
+            headers={"Authorization": f"Bearer {token}", "User-Agent": USER_AGENT},
+            timeout=30,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        if not payload.get("errors"):
+            calendar = payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+            if calendar and calendar.get("totalContributions") is not None:
+                return int(calendar["totalContributions"])
+        print("GraphQL did not expose the calendar; using the public page", file=sys.stderr)
+    except (requests.RequestException, KeyError, TypeError) as exc:
+        print(f"GraphQL contributions unavailable ({exc}); using the public page", file=sys.stderr)
+
+    return _contributions_from_public_page()
+
+
+def _contributions_from_public_page() -> int:
+    response = requests.get(
+        f"https://github.com/users/{USERNAME}/contributions",
+        headers={"User-Agent": USER_AGENT},
+        timeout=30,
+    )
+    response.raise_for_status()
+    match = re.search(r"([\d,]+)\s+contributions?\s+in\s+the\s+last\s+year", response.text)
+    if not match:
+        raise RuntimeError("could not read the contribution total from the public calendar page")
+    return int(match.group(1).replace(",", ""))
+
+
+def _replace_once(text: str, pattern: str, replacement: str, label: str) -> str:
+    updated, count = re.subn(pattern, replacement, text)
+    if count != 1:
+        raise RuntimeError(f"expected exactly one {label} in the SVG, matched {count}")
+    return updated
+
+
+def render(svg: str, repositories: int, contributions: int) -> str:
+    svg = _replace_once(
+        svg, r">[^<]*Public Repositories<", f">{repositories} Public Repositories<", "repository count"
+    )
+    svg = _replace_once(
+        svg, r">[^<]*Contributions<", f">{contributions:,} Contributions<", "contribution count"
+    )
+    return svg
+
+
+def main() -> int:
+    token = _token()
+    repositories = public_repository_count(token)
+    contributions = contributions_last_year(token)
+    print(f"public repos: {repositories}  contributions (last year): {contributions}")
+
+    current = SVG_PATH.read_text(encoding="utf-8")
+    updated = render(current, repositories, contributions)
+
+    if updated == current:
+        print("milestone_stats.svg is already current")
+        return 0
+
+    SVG_PATH.write_text(updated, encoding="utf-8")
+    print(f"updated {SVG_PATH.name}")
+    return 0
+
 
 if __name__ == "__main__":
-    try:
-        total, streak = get_stats()
-        # The user mentioned 368+ days, if my calculation is lower due to API limits (usually 1 year),
-        # I should allow for a base offset if they specify it, but for now I'll use the real API data.
-        # Actually, GitHub GraphQL contributionCalendar covers the last year.
-        # If the user has a longer streak, we might need a different approach or just stick to what the API says.
-        # I will use the API values.
-        update_files(total, streak)
-        print(f"Successfully updated stats: {total} contributions, {streak} day streak.")
-    except Exception as e:
-        print(f"Error: {e}")
+    raise SystemExit(main())
